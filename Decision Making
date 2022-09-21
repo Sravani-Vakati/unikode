@@ -7,7 +7,8 @@ elif(a>b):
     print(a,"is greater than",b)
 else:
     print(a,"is less than",b)
-    
+   
+   
  #Vowel or Consonant
  a=(input())
 if(a in "aeiouAEIOU"):
@@ -18,7 +19,8 @@ elif(a>='A' and a<='Z'):
     print("consonant")
 else:
     print("not an alphabet")
-    
+   
+   
  #Grading System
  a=int(input())
 if a==100:
@@ -38,6 +40,7 @@ elif a<=50:
 else:
     print("Invalid input")
 
+
 #Profit or Loss
 cp=float(input())
 spofonemango=int(input())
@@ -52,6 +55,7 @@ elif cp>=sp:
     print("loss:Rs.%.2f" % loss)
 else:
     print("profit:Rs.%.2f" % profit)
+
 
 #Fee collection
 s=input("Enter the student type\n")
@@ -85,7 +89,8 @@ elif s=='MGSH':
     hf=float(input("Enter hostel fee\n"))
     totalfee=(150/100)*tf+hf
     print("The fees to be paid by the student is Rs.%.2f" % totalfee)
-    
+  
+  
 #Y2K Problem Detector
  print("Enter year of birth")
 a=int(input())
@@ -97,6 +102,7 @@ if(a>b):
 else:
     y=(b-a)
     print("your age is ",y)
+    
     
 #Lab Allocation
 print("Enter x")
@@ -112,6 +118,7 @@ elif L2<L3:
 else:
     print("L3 has the minimal seating capacity")
 
+
 #Gardening I
 r=int(input())
 c=int(input())
@@ -120,6 +127,7 @@ if(t>=1 and t<=r or t%c==0 or t%c==1):
     print("Yes")
 else:
     print("No")
+
 
 #Hotel Tariff Calculator
 m=int(input())
@@ -133,6 +141,7 @@ elif m==1 or m==2 or m==3 or m==7 or m==8 or m==9 or m==10:
 else:
     print("Invalid input")
 
+
 #RGY Lights
 s=float(input())
 d=float(input())
@@ -141,6 +150,7 @@ if(s>t):
     print("Yes")
 else:
     print("No")
+
 
 #Budget
 A=int(input())
@@ -158,7 +168,8 @@ if(x<=15000):
     print("Yes")
 else:
     print("No")
-    
+   
+   
 #Sece Dining
 a=input()
 b=int(input())
@@ -170,6 +181,7 @@ elif(a=="rear" and b==1):
     print("Right Handed")
 else:
     print("Left Handed")
+
 
 #Intersection of a circle
 import math
@@ -188,6 +200,7 @@ elif(radSumSq>d):
     print("The circles overlap")
 else:
     print("The circles do not overlap")
+
 
 #Microwave Oven
 print("Enter the number of items")
