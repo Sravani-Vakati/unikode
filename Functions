@@ -1,0 +1,29 @@
+#Arithmetic Operators
+a=int(input())
+b=int(input())
+add=a+b
+sub=a-b
+mul=a*b
+mod=a/b
+rem=a//b
+floordivision=a%b
+print(add)
+print(sub)
+print(mul)
+print(mod)
+print(rem)
+print(floordivision)
+
+
+#Square Root
+n=int(input())
+i=n**2
+print(i)
+
+
+#Cube Root
+n=int(input())
+i=n**3
+print(i)
+
+
