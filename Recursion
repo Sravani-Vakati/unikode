@@ -1,0 +1,53 @@
+#Binary equivalent of a number using Recursion
+n=int(input())
+rem=" "
+while n>0:
+    rem+=str(n%2)
+    n=n//2
+print(rem[::-1])    
+
+
+#Fibonacci Series
+n=int(input())
+n1=-1
+n2=1
+for i in range(1,n+1):
+    n3=n1+n2
+    n1=n2
+    n2=n3
+    print(n3,end=" ")
+
+
+#Odd or Even
+n=int(input())
+if(n%2==0):
+    print("Even")
+else:
+    print("odd")
+
+
+#Factorial
+n=int(input())
+fact=1
+for i in range(1,n+1):
+    fact=fact*i
+print(fact)
+
+
+#LCM of two numbers
+n1=int(input())
+n2=int(input())
+if(n1>n2):
+    max=n1
+else:
+    max=n2
+while(True):
+    if(max%n1==0 and max%n2==0):
+        print(max)
+        break;
+    max= max+ 1
+    
+    
+#Decimal to Binary
+a=int(input())
+print(bin(a)[2:])
