@@ -1,0 +1,51 @@
+#Check Key Exit
+w={'A':1,'B':2,'C':3}
+key=input("Enter key to check:")
+if key in w.keys():
+    print("key is present and value of the key is:",w[key])
+else:
+    print("key isn't present !")
+
+
+#Concatenate
+D1={'A':1,'B':2}
+D2={'C':3}
+D1.update(D2)
+print("Concatenated dictionary is:")
+print(D1)
+
+
+#Expression in(x,x*x)
+n=int(input())
+a={x:x*x for x in range(1,n+1)}
+print(a)    
+
+
+#Key Value Pair
+key=int(input("Enter the key(int) to be added:"))
+value=int(input("Enter the value for the key to be added:"))
+a={}
+a.update({key:value})
+print("Updated dictionary is:")
+print(a)
+
+
+#Sum of all Items
+a={'A':100,'B':540,'C':239}
+print("Total sum of values in the dictionary:")
+print(sum(a.values()))
+
+
+#Map a dictionary
+keys=[]
+values=[]
+n=int(input("Enter number of elements for dictionary:"))
+print("For keys:")
+for i in range(0,n):
+    keys.append(int(input()))
+print("For values:")
+for i in range(0,n):
+    values.append(int(input()))
+d=dict(zip(keys,values))
+print("The dictionary is:")
+print(d)
